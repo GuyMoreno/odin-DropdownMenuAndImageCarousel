@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: #f8f9fa;
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: gray;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+}
